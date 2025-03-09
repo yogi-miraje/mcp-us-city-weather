@@ -1,7 +1,7 @@
 from typing import Any
 import httpx
 from mcp.server.fastmcp import FastMCP
-
+import asyncio
 # Initialize FastMCP server
 mcp = FastMCP("weather")
 
@@ -190,3 +190,6 @@ Details: {current.get('detailedForecast', 'No detailed forecast available')}
 """
     except Exception as e:
         return f"Unexpected error in get_weather: {str(e)}"
+
+if __name__ == "__main__":
+    asyncio.run(mcp.run())
