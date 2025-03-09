@@ -53,3 +53,7 @@ Once configured, you can ask Claude questions like:
 - "Get me the weather forecast for Chicago"
 
 Claude will use the MCP server to fetch and display the weather information.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). See the [LICENSE.md](LICENSE.md) file for details.
