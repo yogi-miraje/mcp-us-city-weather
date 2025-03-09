@@ -13,6 +13,19 @@ This repository contains a weather information service built using the MCP (Mode
 
 - `get_weather`: Get complete weather information for a city
 
+
+## Installation
+
+We recommend using [uv](https://docs.astral.sh/uv/) to manage your Python projects:
+
+```bash
+uv add "mcp[cli]"
+```
+
+Alternatively:
+```bash
+pip install mcp
+```
 ## Usage
 
 ### Test the MCP Server Locally
